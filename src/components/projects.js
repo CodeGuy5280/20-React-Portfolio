@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton, Footer, FooterSection, FooterLinkList} from 'react-mdl';
 
 
 class Projects extends Component {
@@ -17,10 +17,10 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              The first React project is this very app.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button colored href="https://github.com/CodeGuy5280/20-React-Portfolio">GitHub</Button>
               <Button colored>Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -32,10 +32,10 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              The second React project is currently in working! Coming soon.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button colored href="https://github.com/CodeGuy5280/Project-3">GitHub</Button>
               <Button colored>Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -47,7 +47,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              The third React project is an app that searches for Books on Google.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
@@ -58,6 +58,14 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+          <Footer size="mini">
+    <FooterSection type="left" logo="Title">
+        <FooterLinkList>
+            <a href="#">Help</a>
+            <a href="#">Privacy & Terms</a>
+        </FooterLinkList>
+    </FooterSection>
+    </Footer>
         </div>
 
 
