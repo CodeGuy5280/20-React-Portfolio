@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, Footer, FooterLinkList, FooterSection} from 'react-mdl';
 
 
 class Resume extends Component {
@@ -33,6 +33,14 @@ class Resume extends Component {
             <h2>Education</h2>
           </Cell>
         </Grid>
+        <Footer size="mini">
+    <FooterSection type="left" logo="Title">
+        <FooterLinkList>
+            <a href="https://reactjs.org/">Help</a>
+            <a href="https://google.com">Privacy & Terms</a>
+        </FooterLinkList>
+    </FooterSection>
+</Footer>
       </div>
     )
   }

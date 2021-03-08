@@ -58,14 +58,6 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          <Footer size="mini">
-    <FooterSection type="left" logo="Title">
-        <FooterLinkList>
-            <a href="#">Help</a>
-            <a href="#">Privacy & Terms</a>
-        </FooterLinkList>
-    </FooterSection>
-    </Footer>
         </div>
 
 
@@ -105,7 +97,14 @@ class Projects extends Component {
             </Cell>
           </Grid>
 
-
+          <Footer size="mini">
+    <FooterSection type="left" logo="Title">
+        <FooterLinkList>
+            <a href="https://reactjs.org/">Help</a>
+            <a href="https://google.com">Privacy & Terms</a>
+        </FooterLinkList>
+    </FooterSection>
+</Footer>
       </div>
     )
   }
